@@ -1,0 +1,9 @@
+<record>
+    <translation id="name" type="use" value="FME Light"/>
+    <string id="author" value="NY"/>
+    <translation id="description" type="use" value="FME Light"/>
+    <string id="version" value="0.1"/>
+    <flags id="parent" value="FME" />
+    <string id="skin_name" value="FME Light"/>
+    <string id="required_version" value="21.0.0"/>
+</record>
