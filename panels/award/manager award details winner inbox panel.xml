@@ -4,7 +4,7 @@
 	<boolean id="is_in_inbox" value="true"/>
 	<string id="skin_style" value="subtle box"/>
 
-	<container class="main_box" red_replacement="green">
+	<container class="inner_subtle_box" red_replacement="green">
 		<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_layout="110,-4,-6" horizontal_offset="6" vertical_offset="0"/>
 
 		<string id="skin_style" value="contrast box"/>

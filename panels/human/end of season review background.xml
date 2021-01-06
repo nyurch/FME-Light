@@ -1,0 +1,14 @@
+﻿<panel>
+	<layout class="stick_to_sides_attachment" value="all" inset="0" apply_to_children="true" />
+	<widget class="value_based_picture" id="bckp" image_alignment="centre" keep_aspect_ratio="false" scale_picture="true">
+		<layout class="stick_to_sides_attachment" value="all" inset="0"/>
+		<list id="value_list">
+			<!--Default/Bad season-->
+			<record value="0" file=""/>
+			<!--Success default-->
+			<record value="1" file="backgrounds/ticker background"/>
+			<!--Success stadium background-->
+			<record value="2" file="backgrounds/success pitch background"/>
+		</list>
+	</widget>
+</panel>

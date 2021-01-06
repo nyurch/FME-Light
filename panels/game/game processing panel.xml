@@ -177,7 +177,7 @@
         <!-- Note: Don't make this fit children as the button text changes and it causes unwanted movement of other items on the panel -->
         <layout class="stick_to_sides_attachment" alignment="right" apply_to_children="true" inset="10" />
 
-        <widget class="primary_button" id="canc" auto_size="all">
+        <widget class="primary_button" colour="white" id="canc" auto_size="all">
           <layout class="centre_in_parent_attachment" alignment="vertical"/>
           <translation id="text" translation_id="229828" type="use" value="Cancel" />
         </widget>

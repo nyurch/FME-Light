@@ -236,6 +236,7 @@
 <colour name="agent journo relationship hatred"         value="red 900"/>
 <colour name="agent journo relationship none"           value="black"/>
 
+<!-- Duty colours -->
 <colour name="duty attack"      						value="white"/>
 <colour name="duty support"     						value="white"/>
 <colour name="duty defend"      						value="white"/>

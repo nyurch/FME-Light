@@ -423,7 +423,7 @@
 								<record alignment="centre_x,centre_y">
 									<integer id="index" value="0" />
 								</record>
-								<record alignment="centre_y,left">
+								<record alignment="centre_y,left" colour="accent">
 									<integer id="index" value="1" />
 								</record>
 								<record alignment="centre_y,left">
@@ -433,7 +433,7 @@
 									<integer id="index" value="3" />
 									<string id="multiline" value="false" />
 								</record>
-								<record alignment="centre" auto_size="none">
+								<record alignment="centre" auto_size="none" colour="black">
 									<integer id="index" value="4" />
 									<string id="multiline" value="false" />
 								</record>
