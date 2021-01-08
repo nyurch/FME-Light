@@ -115,7 +115,7 @@
 							<boolean id="exclude_from_find" value="true" />
 							<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 						</widget>
-						<widget class="text" alignment="centre_y,left" id="StQt" entity_layout_id="at00" auto_size="vertical" needs_height="true">
+						<widget class="text" alignment="centre_y,left" id="StQt" entity_layout_id="at00" colour="white" auto_size="vertical" needs_height="true">
 							<string id="value" value="text" />
 							<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" move_side="true" target="main" />
 							<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />

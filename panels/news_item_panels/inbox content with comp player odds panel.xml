@@ -38,7 +38,7 @@
 			</container>
 
 			<!--info panel on the right-->
-			<container width="250">
+			<container width="250" background_colour="green 100">
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="10" horizontal_alignment="horizontal" horizontal_inset="0" />
 
 				<!--dynamic image here please-->

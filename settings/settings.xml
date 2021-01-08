@@ -179,11 +179,16 @@
 	<colour name="star rating unknown" red="28" green="28" blue="29" />
 
 	<!-- Attribute colours -->
-	<colour name="low attribute" red="255" green="0" blue="0" />
-	<colour name="normal attribute" red="128" green="0" blue="255" />
-	<colour name="good attribute" red="0" green="191" blue="255" />
-	<colour name="excellent attribute" red="0" green="255" blue="0" />
-
+	<!--
+	<colour name="low attribute" red="130" green="130" blue="130" />
+	<colour name="normal attribute" red="240" green="215" blue="0" />
+	<colour name="good attribute" red="220" green="130" blue="0" />
+	<colour name="excellent attribute" red="160" green="0" blue="0" />
+-->
+<colour name="low attribute" red="0" green="0" blue="0" />
+<colour name="normal attribute" red="100" green="0" blue="0" />
+<colour name="good attribute" red="175" green="0" blue="0" />
+<colour name="excellent attribute" red="255" green="0" blue="0" />
 	<!-- Hint Box -->
 	<colour name="hint_background" red="0" green="128" blue="128"/>
 	<colour name="hint_border" red="0" green="128" blue="128"/>
@@ -241,6 +246,67 @@
 <colour name="duty support"     						value="white"/>
 <colour name="duty defend"      						value="white"/>
 
+<!-- Staff colours -->
+<colour name="staff overview manager colour" 								value="cyan"/>
+<colour name="staff overview assistant manager colour" 						value="indigo"/>
+<colour name="staff overview general coach colour" 							value="blue 900"/>
+<colour name="staff overview fitness coach colour" 							value="light blue"/>
+<colour name="staff overview goalkeeping coach colour"						value="blue 600"/>
+<colour name="staff overview head of youth dev colour" 						value="purple"/>
+<colour name="staff overview dof colour" 									value="green 900"/>
+<colour name="staff overview technical director colour"						value="green 700"/>
+<colour name="staff overview head of player dev colour"						value="green 300"/>
+<colour name="staff overview chief scout colour" 							value="teal 900"/>
+<colour name="staff overview scout colour" 									value="teal 600"/>
+<colour name="staff overview head performance analyst colour" 				value="black"/>
+<colour name="staff overview performance analyst colour" 					value="orange"/>
+<colour name="staff overview recruitment analyst colour" 					value="brown 400"/>
+<colour name="staff overview head physio colour" 							value="deep orange 900"/>
+<colour name="staff overview physio colour" 								value="deep orange 600"/>
+<colour name="staff overview chief doctor colour" 							value="red 900"/>
+<colour name="staff overview doctor colour" 								value="red 600"/>
+<colour name="staff overview head of sports science colour"					value="pink 900"/>
+<colour name="staff overview sports scientist colour" 						value="pink 600"/>
+<colour name="staff empty slot colour" 										value="blue grey 300"/>
+
+<!-- player/object colours -->
+<colour name="virtual player" 							value="red 500"/>
+<colour name="loan out" 								value="fg purple"/>
+<colour name="loan out background" 						value="fg blue"/>
+<!-- used for loan box on player contract panel -->
+<colour name="loan in" 									value="fg blue"/>
+<colour name="co own in" 								value="fg lime lighter"/>
+<!-- co owned at club -->
+<colour name="co own out" 								value="fg lime"/>
+<!-- co owned not at club -->
+<colour name="trial in" 								value="green lighter"/>
+<colour name="trial out" 								value="green"/>
+<colour name="shortlisted" 								value="orange"/>
+<colour name="golden generation" 						value="gold"/>
+<colour name="human controlled" 						value="fg cyan" />
+<!-- used to indicate that team is managed by a human player -->
+<colour name="feeder club" 								value="fg purple"/>
+<!-- used to indicate that team is a feeder club for the current human player -->
+
+<!--Performance (formerly confidence)-->
+<colour name="performance board tag" 					value="teal" />
+<colour name="performance fans tag" 					value="teal" />
+<colour name="performance A plus grade" 				value="teal 900" />
+<colour name="performance A grade" 						value="teal 600" />
+<colour name="performance A minus grade" 				value="teal 300" />
+<colour name="performance B plus grade" 				value="green 900" />
+<colour name="performance B grade" 						value="green 600" />
+<colour name="performance B minus grade" 				value="green 300" />
+<colour name="performance C plus grade" 				value="orange 300" />
+<colour name="performance C grade" 						value="orange 600" />
+<colour name="performance C minus grade" 				value="orange 900" />
+<colour name="performance D grade" 						value="red 300" />
+<colour name="performance E grade" 						value="red 300" />
+<colour name="performance F grade" 						value="red 600" />
+<colour name="performance G grade" 						value="red 900" />
+<colour name="performance waiting grade" 				value="faded text" />
+<colour name="performance highlight positive" 			value="fg positive" />
+<colour name="performance highlight negative" 			value="fg negative" />
 
 	<!-- Button colours -->
 <!--	<colour name="standard_button" 																		value="fg"/>
@@ -313,6 +379,7 @@
 	<colour name="light_box_background" 																value="blue 100"/>
 	<colour name="dark_box_background" 																	value="grey 400"/>
 	<colour name="edit_box_background" 																	value="grey 100"/>
+	<colour name="contrast_box_background" 																value="dark red"/>
 <!--	<colour name="ui_background" 																		value="bg grey"/>
 	<colour name="dialog_background" 																	value="bg grey"/>
 	<colour name="dialog_box_background" 																value="bg"/>

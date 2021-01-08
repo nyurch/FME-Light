@@ -6,7 +6,7 @@
 	<layout class="arrange_horizontal_attachment" layout="-1, -1"  offset="0"/>
 	<layout class="stick_to_sides_attachment" alignment="top"  apply_to_children="true" inset="0"/>
 
-	<container class="vertical_arrange_container" id="infc" auto_size="vertical"  gap="1" inset="0" offset="0">
+	<container class="vertical_arrange_container"  background_colour="grey 100" id="infc" auto_size="vertical"  gap="1" inset="0" offset="0">
 
 		<container class="inner_subtle_box" id="psdt" height="220">
 			<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0"/>

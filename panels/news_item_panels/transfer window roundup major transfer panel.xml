@@ -23,7 +23,7 @@
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 			<!--name-->
-			<widget class="person_button" id="psbf" auto_size="vertical" alignment="left,centre_y" style="semi_bold" colour="text" info_popup_enabled="true" person_is_player="true" colour="black">
+			<widget class="person_button" id="psbf" auto_size="vertical" alignment="left,centre_y" style="semi_bold" info_popup_enabled="true" person_is_player="true" colour="black">
 				<record id="object_property">
 					<list id="get_properties">
 						<record>

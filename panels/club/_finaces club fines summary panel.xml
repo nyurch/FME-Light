@@ -96,7 +96,7 @@
 			</container>
 		</container>
 	</container>
-	<container class="inner_box" entity_layout_id="at01" id="at01" colour="title">
+		<container class="inner_box" entity_layout_id="at01" id="at01" colour="title">
 		<string id="force_title_borders" value="true" />
 		<translation id="title" translation_id="491864" type="use" value="Player Fine List for the season[COMMENT: AREA: Inbox; SUB - AREA: Code of conduct; FR: 9605; TONE: Formal; CHARLIMIT: None; NOTE: Header for player fine list]" />
 		<layout class="stick_to_object_attachment" id="align_top" offset="0" get_side="bottom" set_side="top" target="at00" />
@@ -137,9 +137,30 @@
 			<layout class="stick_to_object_attachment" id="align_left" offset="0" get_side="left" set_side="left" target="main" />
 			<layout class="stick_to_object_attachment" id="align_right" offset="0" get_side="right" set_side="right" target="main" />
 		</container>
-	</container>
-	
-	</container>
 
+	</container>
+	</container>
+	<container entity_layout_id="at09" id="noCn" hidden="true">
+		<widget class="spacer" id="main">
+		<boolean id="exclude_from_find" value="true" />
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+		</widget>
+		<widget class="spacer" id="fmin" embed_in_frame="true">
+			<boolean id="exclude_from_find" value="true" />
+			<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+		</widget>
+		<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+		<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+		<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+		<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+
+		<container class="text" entity_layout_id="at10" alignment="centre" style="bold" size="large">
+			<translation id="text" translation_id="491869" type="use" value="No Code of Conduct has been agreed yet[COMMENT: AREA: Inbox; SUB-AREA: Code of conduct; FR: 9605; TONE: Formal; CHARLIMIT: None; NOTE: Header for player fine list]" />
+			<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+			<layout class="stick_to_object_attachment" id="align_bottom" offset="-4" get_side="bottom" set_side="bottom" target="main" />
+			<layout class="stick_to_object_attachment" id="align_left" offset="4" get_side="left" set_side="left" target="main" />
+			<layout class="stick_to_object_attachment" id="align_right" offset="-4" get_side="right" set_side="right" target="main" />
+		</container>
+	</container>
 
 </panel>

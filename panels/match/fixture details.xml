@@ -1,46 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <panel>
-
 	
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-
-	<widget class="bordered_box" appearance="boxes/bordered/standard/paper" id="fdep" allow_single_bar_click="true">
-		<translation id="title" translation_id="247232" type="use" value="Fixture Details" />
-		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-
-		<container embed_in_frame="true">
-			<attachment_group class="title_embedded_panel_right" />
-
-			<widget class="popup_button" id="spop" alignment="centre" icon="icons/16px/search" icon_alignment="left,centre_y" select_event="esms" auto_size="all" embed_in_frame="true">
-				<list id="items">
-					<record id="0" icon="icons/16px/search" red_replacement="button_icon">
-						<translation id="text" translation_id="451321" type="use" value="No action[COMMENT: FR 21106, take no action on a scouting reminder recommendation for a competition]" />
-					</record>
-					<record id="1" icon="icons/16px/search" red_replacement="green 500">
-						<translation translation_id="450039" type="use" id="text" value="Scout match[COMMENT: FR 21106, take action on a scouting reminder recommendation for a competition]" />
-					</record>
-					<record id="2" icon="icons/16px/search" red_replacement="blue 500">
-						<translation id="text" translation_id="451322" type="use" value="Attend match[COMMENT: FR 21106, take action on a scouting reminder recommendation for a competition]" />
-
-					</record>
-
-				</list>
-			</widget>
-		</container>
-
-		<container id="FREE">
-
-		</container>
 
 		<container id="NOFR">
 			<layout class="arrange_vertical_attachment" alignment="bottom,extend" gap="5" layout="120,5,20,180,-1,30,40" offset="0" />
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 			<container>
-			
-				<!--spacer-->
-				<container height="15" />			
-			
 				<layout class="arrange_vertical_attachment" alignment="top" gap="0" offset="5" />
 				<layout class="fit_children_attachment" alignment="vertical,fill" gap="0" offset="5" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
@@ -221,6 +188,7 @@
 						<record id="object_property">
 							<integer id="get_property" value="FxCL" />
 						</record>
+						<record id="default_properties" colour="black"/>
 					</widget>
 
 					<!--rules-->
@@ -304,7 +272,7 @@
 			</container>
 
 		</container>
-	</widget>
+	
 
 </panel>
 <!-- main container widget -->

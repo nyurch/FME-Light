@@ -40,7 +40,7 @@
 			<boolean id="exclude_from_find" value="true" />
 			<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 		</widget>
-		<container class="inner_subtle_box" entity_layout_id="at02" id="at02" width="250" height="546" name="person widgets container">
+		<container class="inner_subtle_box" entity_layout_id="at02" id="at02" width="250" height="546" background_colour="faded white" name="person widgets container">
 			<layout class="stick_to_object_attachment" id="align_top" offset="4" get_side="top" set_side="top" move_side="true" target="main" />
 			<layout class="stick_to_object_attachment" id="align_right" offset="-20" get_side="right" set_side="right" move_side="true" target="main" />
 			<widget class="spacer" id="main">

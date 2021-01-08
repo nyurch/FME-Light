@@ -220,7 +220,7 @@
 							<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" move_side="true" target="main" />
 							<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main" />
 						</widget>
-						<widget class="person_button" entity_layout_id="at23" id="TCaV" alignment="left,top" auto_size="all" needs_width="true" needs_height="true">
+						<widget class="person_button" entity_layout_id="at23" id="TCaV" alignment="left,top" colour="black" auto_size="all" needs_width="true" needs_height="true">
 							<string id="standard_spec" value="text" />
 							<translation id="no_object_text" translation_id="320493" type="use" value="None currently[COMMENT: text indicating that there is no person to view here currently (e.g. a manager, captain, vice captain etc.)]" />
 							<record id="object_property">
@@ -253,7 +253,7 @@
 							<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" move_side="true" target="main" />
 							<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main" />
 						</widget>
-						<widget class="person_button" entity_layout_id="at26" id="TVcV" alignment="left,top" auto_size="all" needs_width="true" needs_height="true">
+						<widget class="person_button" entity_layout_id="at26" id="TVcV" alignment="left,top" colour="black" auto_size="all" needs_width="true" needs_height="true">
 							<string id="standard_spec" value="text" />
 							<translation id="no_object_text" translation_id="320493" type="use" value="None currently[COMMENT: text indicating that there is no person to view here currently (e.g. a manager, captain, vice captain etc.)]" />
 							<record id="object_property">
