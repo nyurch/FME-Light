@@ -77,7 +77,7 @@
 
 
 		<!--team names and score-->
-		<container width="535" id="temc">
+		<container width="600" id="temc">
 
 			<animation class="scale_animation" start_value="0, 1" end_value="1, 1" duration="0.5" delay="0.9" end_mode="hold_end" tween="ease_out" coord_mode="relative_to_target" centre_point="left"/>
 			<animation class="fade_animation" start_value="0" end_value="1" duration="0.4" delay="1" end_mode="hold_end"/>

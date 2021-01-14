@@ -204,8 +204,8 @@
 <colour name="very poor feedback bg" 					value="red"/>
 <colour name="poor feedback" 							value="orange"/>
 <colour name="poor feedback bg" 						value="orange"/>
-<colour name="ok feedback" 								value="green 200"/>
-<colour name="ok feedback bg" 							value="green 200"/>
+<colour name="ok feedback" 								value="green 700"/>
+<colour name="ok feedback bg" 							value="green 700"/>
 <colour name="good feedback" 							value="green"/>
 <colour name="good feedback bg" 						value="green"/>
 <colour name="very good feedback" 						value="teal"/>
@@ -218,7 +218,7 @@
 <colour name="body language v pleased bg" 			value="white"/>
 <colour name="body language pleased fg" 			value="green 500"/>
 <colour name="body language pleased bg" 			value="white"/>
-<colour name="body language content fg" 			value="green 200"/>
+<colour name="body language content fg" 			value="green 700"/>
 <colour name="body language content bg" 			value="white"/>
 <colour name="body language annoyed fg" 			value="orange"/>
 <colour name="body language annoyed bg" 			value="white"/>
@@ -307,6 +307,9 @@
 <colour name="performance waiting grade" 				value="faded text" />
 <colour name="performance highlight positive" 			value="fg positive" />
 <colour name="performance highlight negative" 			value="fg negative" />
+
+<!--Interaction Bubble-->
+<colour name="recruitment meeting bubble colour"	value="rgb(240,240,240)" />
 
 	<!-- Button colours -->
 <!--	<colour name="standard_button" 																		value="fg"/>

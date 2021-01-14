@@ -32,7 +32,9 @@
 			</container>
 
 			<!-- Other players -->
-			<widget class="table" id="ptbl" mode="fill_rows,stripe_rows,hide_headings" layout="-1, 50" auto_size="none" />
+			<widget class="table" id="ptbl" mode="fill_rows,stripe_rows,hide_headings" layout="-1, 50" auto_size="none">
+			<record id="default_properties" alignment="left,centre_y" colour="black"/>
+			</widget>
 		</container>
 		<widget class="text" id="noBD" alignment="centre" hidden="true">
 			<translation id="text" translation_id="469534" type="use" value="There have been no bad performances worth noting in training this week[Comment: Training fix for bug 188141 - situation where there are no bad training performers to display]" />

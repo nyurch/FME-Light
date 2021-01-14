@@ -73,7 +73,7 @@
 
 			<widget class="text" id="expl" multiline="true" size="10" alignment="left,centre_y" />
 
-			<widget class="icon_button" id="sugb" click_event="supl" auto_size="all" icon="icons/16px/tick" appearance="buttons/primary/normal/button">
+			<widget class="icon_button" id="sugb" click_event="supl" auto_size="all" icon="icons/16px/tick" colour="white" appearance="buttons/primary/normal/button">
 				<layout class="centre_in_parent_attachment" alignment="vertical" offset="0" />
 				<translation id="text" translation_id="483628" type="use" value="Request DoF Suggestion[COMMENT: AREA: Director of Football; SUB-AREA: Transfer Targets to the right of DoF description; FR: 27629; TONE: Formal; CHARLIMIT: None;]" />
 			</widget>
@@ -281,7 +281,7 @@
 								<record indx="5" navigation_focus_target="true" />
 							</list>
 
-							<record id="default_properties" alignment="left,centre_y" />
+							<record id="default_properties" alignment="left,centre_y" colour="black"/>
 
 						</widget>
 
@@ -353,7 +353,7 @@
 						</widget>
 					</widget>
 
-					<widget class="primary_button" id="addb" auto_size="horizontal" click_event="addt" controller_button="y_button" navigation_focus_target="true">
+					<widget class="primary_button" id="addb" auto_size="horizontal" click_event="addt" colour="white" controller_button="y_button" navigation_focus_target="true">
 						<translation id="text" translation_id="336159" type="use" value="Add as Transfer Target[COMMENT: right click menu item for players, Transfer Target is a new style of shortlist, multiple shortlists encouraged to be used]" />
 					</widget>
 

@@ -38,7 +38,7 @@
             <widget class="embedded_filter_button" id="plsf" target="plti" auto_size="horizontal" embed_in_frame="true" />
             <widget class="icon_button" appearance="buttons/primary/normal/button" icon="icons/26px/whistle" icon_alignment="right,centre_y" id="INST" embed_in_frame="true" auto_size="horizontal" colour="white" red_replacement="primary_button">
                 <translation id="text" translation_id="339740" type="use" value="Instant Result[COMMENT: text for a button that will generate an instant result for the upcoming match rather than having to go through and play it]" />
-                <record id="primary_icon_properties" red_replacement="text" />
+                <record id="primary_icon_properties" red_replacement="white" />
                 <record id="click_event" event_id="INST" event_target="glob" />
                 <attachment class="test_global_attachment" get_property="section" mode="1" set_property="hidden">
                     <list id="value">

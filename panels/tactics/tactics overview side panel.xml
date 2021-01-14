@@ -49,13 +49,13 @@
 		<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main"/>
 		<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main"/>
 	</container>
-	<container class="team_squad_tactics_panel" entity_layout_id="at04" id="tesA" name="team squad table" width="1000" navigation_container="true" >
+	<container class="team_squad_tactics_panel" entity_layout_id="at04" id="tesA" name="team squad table" navigation_container="true" >
 		<string id="include_starting_xi" value="true"/>
 		<string id="include_starting_subs" value="true"/>
 		<string id="include_unpicked" value="true"/>
 		<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main"/>
 		<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main"/>
-		<layout class="stick_to_object_attachment" id="align_left" offset="-110" get_side="right" set_side="left" target="at0:"/>
+		<layout class="stick_to_object_attachment" id="align_left" offset="12" get_side="right" set_side="left" target="at0:"/>
 		<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main"/>
 	</container>
 	<widget class="button" entity_layout_id="it14" appearance="boxes/custom/tactics/shadow/paper" id="shDW" wants_mouse_events="true" name="shadow">
@@ -65,7 +65,7 @@
 		<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main"/>
 		<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main"/>
 	</widget>
-	<container class="main_contrast_box_no_margin" entity_layout_id="it15" wants_mouse_events="true" inset="0" red_replacement="pitch_box_background" width="680" name="green background" navigation_container="true">
+	<container class="main_contrast_box_no_margin" entity_layout_id="it15" id="bakC" wants_mouse_events="true" inset="0" red_replacement="pitch_box_background" width="890" name="green background" navigation_container="true">
 		<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main"/>
 		<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main"/>
 		<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main"/>
@@ -187,6 +187,12 @@
 				<layout class="stick_to_object_attachment" id="align_left" offset="2" get_side="left" set_side="left" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main"/>
 			</container>
+		</container>
+		<container class="subs_bench_panel" entity_layout_id="it03" id="Subs" name="subs">
+			<layout class="stick_to_object_attachment" id="align_top" offset="4" get_side="bottom" set_side="top" target="at01"/>
+			<layout class="stick_to_object_attachment" id="align_bottom" offset="-4" get_side="bottom" set_side="bottom" target="main"/>
+			<layout class="stick_to_object_attachment" id="align_left" get_side="right" set_side="left" target="lt00"/>
+			<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main"/>
 		</container>
 	</container>
   <widget class="icon_button" entity_layout_id="it01" id="MaMi" appearance="buttons/standard/flex/button" alignment="centre_x,centre_y" icon_alignment="centre_x,centre_y" width="50" height="34" name="expand button" controller_button="x_button" navigation_focus_target="false" gamepad_icon_alignment="centre_left" secondary_icon_colour="white" font="title" colour="white">

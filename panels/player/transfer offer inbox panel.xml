@@ -40,7 +40,7 @@
 								<container id="cltc">
 									<attachment_group class="vertical_arrange_autosize" vertical_offset="6"/>
 
-									<widget class="text" id="clmt" auto_size="vertical"/>
+									<widget class="text" id="clmt" colour="orange" style="bold" auto_size="vertical"/>
 								</container>
 							</container>
 

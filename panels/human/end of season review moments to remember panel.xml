@@ -94,7 +94,7 @@
 				<boolean id="exclude_from_find" value="true"/>
 				<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0"/>
 			</widget>
-			<container class="main_subtle_box"  entity_layout_id="at06" id="box1" width="308" height="740" name="box1" navigation_container="true">
+			<container class="main_subtle_box"  entity_layout_id="at06" id="box1" width="308" height="800" name="box1" navigation_container="true">
 				<layout class="stick_to_object_attachment" id="align_top" offset="20" get_side="top" set_side="top" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main"/>
 				<widget class="spacer" id="main">
@@ -134,7 +134,7 @@
 					<layout class="stick_to_object_attachment" id="align_right" offset="0" get_side="right" set_side="right" target="main"/>
 				</container>
 			</container>
-			<container class="main_subtle_box"  entity_layout_id="at0&gt;" id="at0&gt;" width="308" height="740" name="box2" navigation_container="true">
+			<container class="main_subtle_box"  entity_layout_id="at0&gt;" id="at0&gt;" width="308" height="800" name="box2" navigation_container="true">
 				<layout class="stick_to_object_attachment" id="align_top" get_side="top" offset="20" set_side="top" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_left" offset="15" get_side="right" set_side="left" move_side="true" target="at06"/>
 				<widget class="spacer" id="main">
@@ -174,7 +174,7 @@
 					<layout class="stick_to_object_attachment" id="align_right" offset="0" get_side="right" set_side="right" target="main"/>
 				</container>
 			</container>
-			<container class="main_subtle_box"  entity_layout_id="at0F" id="at0F" width="308" height="740" name="box3" navigation_container="true">
+			<container class="main_subtle_box"  entity_layout_id="at0F" id="at0F" width="308" height="800" name="box3" navigation_container="true">
 				<layout class="stick_to_object_attachment" id="align_top" get_side="top" offset="20" set_side="top" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_left" offset="15" get_side="right" set_side="left" move_side="true" target="at0&gt;"/>
 				<widget class="spacer" id="main">

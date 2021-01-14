@@ -208,13 +208,13 @@
 					<boolean id="exclude_from_find" value="true" />
 					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 				</widget>
-				<widget class="text" entity_layout_id="at0H" id="at0H" width="190" height="20">
+				<widget class="text" entity_layout_id="at0H" id="at0H" colour="gold" width="190" height="20">
 					<string id="font" value="label" />
 					<translation id="text" translation_id="466494" type="use" value="Agent Feedback:[COMMENT: FR 22718; transfer offer panel; button label to initiate conversation to persuade player to leave club]" />
 					<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" move_side="true" target="main" />
 					<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main" />
 				</widget>
-				<widget class="text" entity_layout_id="at0^" id="agnt">
+				<widget class="text" entity_layout_id="at0^" id="agnt" colour="white">
 					<integer id="size" value="9" />
 					<string id="font" value="text" />
 					<layout class="stick_to_object_attachment" id="align_top" get_side="bottom" set_side="top" target="at0H" />
@@ -345,7 +345,7 @@
 							<boolean id="exclude_from_find" value="true" />
 							<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 						</widget>
-						<widget class="text" entity_layout_id="1635004544" id="i_have_changed_some_other_stuff" alignment="centre_y,left" width="90">
+						<widget class="text" entity_layout_id="1635004544" id="i_have_changed_some_other_stuff" colour="white" alignment="centre_y,left" width="90">
 							<integer id="size" value="10" />
 							<translation id="text" translation_id="256851" type="use" value="Rejected[COMMENT: transfer centre screen; label text for rejected transfer]" />
 							<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
