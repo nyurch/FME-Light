@@ -23,7 +23,7 @@
                 </widget>
 
                 <!-- currently speaking icon? -->
-                <widget class="picture" id="talk" file="icons/custom/quick chat/quick_chat_speaking_mask_square_small" scale_picture="true" keep_aspect_ratio="true" width="30" height="30" image_alignment="centre" red_replacement="fg yellow" hidden="true">
+                <widget class="picture" id="talk" file="icons/custom/quick chat/quick_chat_speaking_mask_square_small" scale_picture="true" keep_aspect_ratio="true" width="30" height="30" image_alignment="centre" red_replacement="fg purple" hidden="true">
                     <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
                 </widget>
             </container>

@@ -1,7 +1,7 @@
 ﻿<panel>
   <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
-  <container class="inner_subtle_box">
+  <container class="inner_subtle_box" red_replacement="black">
     <layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="5"/>
     <layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" gap="0"/>
 
@@ -53,7 +53,7 @@
       </container>
       <container>
         <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="10,8"/>
-        <container class="inner_subtle_box" appearance="boxes/custom/darken/rounded/no margin/paper" >
+        <container class="inner_subtle_box" red_replacement="black" appearance="boxes/custom/darken/rounded/no margin/paper" >
           <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
           <!--content-->
           <container>

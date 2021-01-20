@@ -17,7 +17,7 @@
 
 			<string id="skin_style" value="title link" />
 
-			<widget class="link_button" id="sqrl" auto_size="all" colour="white" alignment="left,centre_y" font="title" section="*ssl">
+			<widget class="link_button" id="sqrl" auto_size="all" colour="accent" alignment="left,centre_y" font="title" section="*ssl">
 				<translation id="text" translation_id="316860" type="use" value="Squad Registration[COMMENT: competition schedule panel; date of squad registration]" />
 			</widget>
 		</container>

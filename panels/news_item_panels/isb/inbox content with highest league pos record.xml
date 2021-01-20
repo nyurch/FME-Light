@@ -1,0 +1,229 @@
+﻿<panel height="500">
+	<list id="draw_order">
+		<record entity_layout_id="at00" />
+		<record entity_layout_id="at01" />
+		<record entity_layout_id="at03" />
+		<record entity_layout_id="at04" />
+		<record entity_layout_id="at05" />
+		<record entity_layout_id="at06" />
+		<record entity_layout_id="at07" />
+		<record entity_layout_id="at08" />
+		<record entity_layout_id="at02" />
+		<record entity_layout_id="at09" />
+	</list>
+	
+	<flags id="NwRR" value="tables/standard/row/selected/row" />
+	
+	<widget class="spacer" id="main">
+		<boolean id="exclude_from_find" value="true" />
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+	</widget>
+	<widget class="spacer" id="fmin" embed_in_frame="true">
+		<boolean id="exclude_from_find" value="true" />
+		<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+	</widget>
+	<container entity_layout_id="at00" id="at00">
+		<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+		<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+		<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+		<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+		<widget class="spacer" id="main">
+			<boolean id="exclude_from_find" value="true" />
+			<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+		</widget>
+		<widget class="spacer" id="fmin" embed_in_frame="true">
+			<boolean id="exclude_from_find" value="true" />
+			<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+		</widget>
+		<container entity_layout_id="at01" id="at01" auto_size="vertical" height="145">
+			<layout class="stick_to_object_attachment" id="align_top" offset="10" get_side="top" set_side="top" move_side="true" target="main" />
+			<layout class="stick_to_object_attachment" id="align_left" offset="10" get_side="left" set_side="left" target="main" />
+			<layout class="stick_to_object_attachment" id="align_right" offset="-10" get_side="right" set_side="right" target="main" />
+			<widget class="spacer" id="main">
+				<boolean id="exclude_from_find" value="true" />
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+			</widget>
+			<widget class="spacer" id="fmin" embed_in_frame="true">
+				<boolean id="exclude_from_find" value="true" />
+				<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+			</widget>
+			<container entity_layout_id="at03" id="at03" width="167" height="100" name="pictures">
+				<layout class="stick_to_object_attachment" id="align_top" offset="5" get_side="top" set_side="top" move_side="true" target="main" />
+				<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main" />
+				<widget class="spacer" id="main">
+					<boolean id="exclude_from_find" value="true" />
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+				</widget>
+				<widget class="spacer" id="fmin" embed_in_frame="true">
+					<boolean id="exclude_from_find" value="true" />
+					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+				</widget>
+				<widget class="picture" entity_layout_id="at04" file="photos/dynamic/generic/pitch" id="at04" scale_picture="true">
+					<string id="image_alignment" value="centre" />
+					<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+					<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+					<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+					<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+				</widget>
+				<container class="object_portrait_picture" entity_layout_id="at05" id="tmPr" width="90" height="90">
+					<string id="no_object_picture" value="pictures/logos/normal/clubs/cro/dinamo zagreb" />
+					<string id="image_alignment" value="centre_x, top" />
+					<string id="scale_picture" value="true" />
+					<string id="keep_aspect_ratio" value="true" />
+					<layout class="centre_in_parent_attachment" id="align_centre_horiz" alignment="horizontal" offset="0" />
+					<layout class="centre_in_parent_attachment" id="align_centre_vert" alignment="vertical" offset="0" />
+				</container>
+			</container>
+			<container entity_layout_id="at06" id="at06" auto_size="vertical">
+				<layout class="stick_to_object_attachment" id="align_top" offset="10" get_side="top" set_side="top" target="main" />
+				<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+				<layout class="stick_to_object_attachment" id="align_left" offset="10" get_side="right" set_side="left" target="at03" />
+				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+				<widget class="spacer" id="main">
+					<boolean id="exclude_from_find" value="true" />
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+				</widget>
+				<widget class="spacer" id="fmin" embed_in_frame="true">
+					<boolean id="exclude_from_find" value="true" />
+					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+				</widget>
+				<widget class="inbox_body_text" entity_layout_id="at07" id="artT">
+					<string id="value" value="text" />
+					<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+					<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+					<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+					<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+				</widget>
+			</container>
+		</container>
+		<container class="inner_subtle_box" entity_layout_id="at08" id="at08">
+			<layout class="stick_to_object_attachment" id="align_top" offset="15" get_side="bottom" set_side="top" target="at01" />
+			<layout class="stick_to_object_attachment" id="align_bottom" offset="-10" get_side="bottom" set_side="bottom" target="main" />
+			<layout class="stick_to_object_attachment" id="align_left" offset="10" get_side="left" set_side="left" target="main" />
+			<layout class="stick_to_object_attachment" id="align_right" offset="-10" get_side="right" set_side="right" target="main" />
+			<widget class="spacer" id="main">
+				<boolean id="exclude_from_find" value="true" />
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+			</widget>
+			<widget class="spacer" id="fmin" embed_in_frame="true">
+				<boolean id="exclude_from_find" value="true" />
+				<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+			</widget>
+			<container class="title_link_box" entity_layout_id="at02" id="at02">
+				<string id="section" value="cmps" />
+				<translation id="link_title" translation_id="319446" type="use" value="League History[COMMENT: title for the league position history on the club overview panel]" />
+				<string id="hide_view_menu" value="true" />
+				<layout class="stick_to_sides_attachment" apply_to_children="true" alignment="all" inset="0" />
+				<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+				<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+				<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+				<container>
+					<layout class="fit_children_attachment" embed_in_frame="true" alignment="vertical" offset="4" gap="0" />
+					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="top" inset="0" />
+					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="horizontal" inset="8" />
+					<widget class="link_button">
+						<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="top" inset="8" />
+						<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="left" inset="0" />
+					</widget>
+					<widget class="popup_button">
+						<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="right,top" inset="0" />
+					</widget>
+				</container>
+				<widget class="spacer" id="main">
+					<boolean id="exclude_from_find" value="true" />
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+				</widget>
+				<widget class="spacer" id="fmin" embed_in_frame="true">
+					<boolean id="exclude_from_find" value="true" />
+					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+				</widget>
+				<container class="table" entity_layout_id="at09" save_session_state="true" id="lpHt" layout="70, -1, 50, 40, 40, 40, 40, 40, 40, 40, 50" mode="fill_rows,keyboard,stripe_rows">
+
+					<list id="headings">
+						<record index="0" alignment="left,centre_y">
+							<translation id="text" translation_id="289986" type="use" value="Year[COMMENT:team screen; history section; heading for history table - season year]" />
+						</record>
+						<record index="1" alignment="left,centre_y">
+							<translation id="text" translation_id="229392" type="use" value="Division" />
+						</record>
+						<record index="2" alignment="left,centre_y">
+							<translation id="text" translation_id="242478" type="use" value="Pos[(league position)]" />
+							<translation id="hint" translation_id="347290" type="use" value="Position[COMMENT: average points fate action type, teams in this position get this fate]" />
+						</record>
+						<record index="3" alignment="left,centre_y">
+							<translation id="text" translation_id="249366" type="use" value="Pld[(games played)]" />
+						</record>
+						<record index="4" alignment="left,centre_y">
+							<translation id="text" translation_id="249367" type="use" value="Won[(games won)]" />
+						</record>
+						<record index="5" alignment="left,centre_y">
+							<translation id="text" translation_id="249370" type="use" value="Drn[games drawn]" />
+						</record>
+						<record index="6" alignment="left,centre_y">
+							<translation id="text" translation_id="249371" type="use" value="Lst[(games lost)]" />
+						</record>
+						<record index="7" alignment="left,centre_y">
+							<translation id="text" translation_id="249372" type="use" value="For[(goals for)]" />
+						</record>
+						<record index="8" alignment="left,centre_y">
+							<translation id="text" translation_id="249373" type="use" value="Ag[(goals against)]" />
+						</record>
+						<record index="9" alignment="left,centre_y">
+							<translation id="text" translation_id="309064" type="use" value="GD[COMMENT: Goal Difference, very short abbreviation]" />
+						</record>
+						<record index="10" alignment="left,centre_y">
+							<translation id="text" translation_id="249374" type="use" value="Pts[(points)]" />
+						</record>
+					</list>
+
+					<list id="column_table_properties">
+						<record id="year" auto_hide_priority="10">
+							<integer id="index" value="0" />
+						</record>
+						<record id="divi" auto_hide_priority="10" minimum_width="120">
+							<integer id="index" value="1" />
+						</record>
+						<record id="posi" auto_hide_priority="10">
+							<integer id="index" value="2" />
+						</record>
+						<record id="plyd" auto_hide_priority="10">
+							<integer id="index" value="3" />
+						</record>
+						<record id="wins" auto_hide_priority="10">
+							<integer id="index" value="4" />
+						</record>
+						<record id="draw" auto_hide_priority="10">
+							<integer id="index" value="5" />
+						</record>
+						<record id="lose" auto_hide_priority="10">
+							<integer id="index" value="6" />
+						</record>
+						<record id="forG" auto_hide_priority="100">
+							<integer id="index" value="7" />
+						</record>
+						<record id="agsG" auto_hide_priority="100">
+							<integer id="index" value="8" />
+						</record>
+						<record id="GDif" auto_hide_priority="50">
+							<integer id="index" value="9" />
+						</record>
+						<record id="pnts" auto_hide_priority="10">
+							<integer id="index" value="10" />
+						</record>
+					</list>
+					<list id="default_sort_column">
+						<string value="posi" />
+						<string value="year" />
+						<string value="pnts" />
+					</list>
+					<record id="default_properties" alignment="centre_y,left" />
+					<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+					<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+					<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+					<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+				</container>
+			</container>
+		</container>
+	</container>
+</panel>

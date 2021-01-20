@@ -1,4 +1,5 @@
 ﻿<panel>
+<string id="skin_style" value="person_button" />	<!-- used to recolour player name in issues table and influencers part -->
 	<list id="draw_order">
 		<record entity_layout_id="atab" />
 		<record entity_layout_id="at07" />

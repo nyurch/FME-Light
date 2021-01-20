@@ -3,7 +3,7 @@
     <layout class="stick_to_sides_attachment" alignment="all" />
 
     <string id="speaking_box_appearance" value="icons/custom/quick chat/quick_chat_speaking_mask_square_remote" />
-    <flags id="speaking_box_colour" value="grey 200" />
+    <flags id="speaking_box_colour" value="accent" />
     
     <!-- title area -->
     <container navigation_container="true">
@@ -13,7 +13,7 @@
             <attachment_group class="horizontal_arrange_autosize_all_centre_centered_in_parent" horizontal_gap="10" />
 
             <widget class="picture" id="titi" scale_picture="true" image_alignment="centre" width="20" height="20" />
-            <widget class="text" id="titl" font="title" size="xlarge" auto_size="all" auto_size_maximum_width="435"/>
+            <widget class="text" id="titl" font="title" size="normal" colour="red 900" auto_size="all" auto_size_maximum_width="435"/>
         </container>
 
         <container width="20" height="30">

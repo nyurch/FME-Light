@@ -1,0 +1,21 @@
+<panel>
+	<attachment_group class="vertical_arrange_autosize" />
+
+	<!-- content area -->
+	<container>
+		<attachment_group class="vertical_arrange_autosize" />
+		<container>
+			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" />
+
+			<widget class="inbox_body_text" id="bdtx" colour="inbox_text"/>
+		</container>
+
+		<container class="inner_subtle_box" appearance="boxes/custom/inbox attachment/personal/paper">
+			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" />
+
+			<widget class="contract_offer_information_panel" id="ofbx" file="person/contract information news content panel"/>
+		</container>
+
+	</container>
+
+</panel>

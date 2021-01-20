@@ -1,4 +1,4 @@
-﻿<panel width="656">
+﻿<panel width="830">
 
 	<list id="properties_to_forward">
 		<record get_property="disable_animations" set_property="disable_animations" target="clkc"/>
@@ -77,7 +77,7 @@
 
 
 		<!--team names and score-->
-		<container width="600" id="temc">
+		<container width="700" id="temc">
 
 			<animation class="scale_animation" start_value="0, 1" end_value="1, 1" duration="0.5" delay="0.9" end_mode="hold_end" tween="ease_out" coord_mode="relative_to_target" centre_point="left"/>
 			<animation class="fade_animation" start_value="0" end_value="1" duration="0.4" delay="1" end_mode="hold_end"/>
@@ -124,11 +124,11 @@
 					<container id="asco">
 						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle"  horizontal_gap="2" horizontal_offset="0" vertical_inset="0" />
 
-						<widget class="text" id="T1as" font="title" alignment="right,centre_y" auto_size="all"/>
+						<widget class="text" id="T1as" font="title" alignment="right,centre_y" colour="gold" auto_size="all"/>
 
-						<widget class="text" font="title" alignment="centre" text="-" auto_size="all"/>
+						<widget class="text" font="title" alignment="centre" text="-" colour="gold" auto_size="all"/>
 
-						<widget class="text" id="T2as" font="title" alignment="left,centre_y" auto_size="all"/>
+						<widget class="text" id="T2as" font="title" alignment="left,centre_y" colour="gold" auto_size="all"/>
 
 					</container>
 

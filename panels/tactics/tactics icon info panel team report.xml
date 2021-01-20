@@ -53,7 +53,7 @@
 		</container>
 
 		<container id="nmcN">
-			<layout class="fit_children_attachment" alignment="vertical" offset="30" gap="0"/>
+			<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0"/>
 			<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0"/>
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
 			<!--name/condition etc.-->

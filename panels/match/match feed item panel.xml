@@ -38,13 +38,13 @@
 };
 -->
 	<list id="skns">
-		<record id="1" colour="black"/>
-		<record id="2" colour="black"/>
+		<record id="1" colour="gold"/>
+		<record id="2" colour="purple"/>
 		<record id="3" />
 		<record id="4" />
 		<record id="5" />
-		<record id="6" />
-		<record id="7" />
+		<record id="6"  colour="orange"/>
+		<record id="7"  colour="red"/>
 		<record id="8" />
 		<record id="9" />
 		<record id="10" />
@@ -60,7 +60,7 @@
 		<record id="20" />
 		<record id="21" />
 		<record id="22" />
-		<record id="23" />
+		<record id="23"  colour="white"/>
 		<record id="24" />
 		<record id="25" />
 		<record id="26" />

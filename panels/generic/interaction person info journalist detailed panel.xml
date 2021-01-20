@@ -17,7 +17,7 @@
         </widget>
 
         <!-- currently speaking icon? -->
-        <widget class="picture" file="icons/custom/quick chat/quick_chat_speaking_mask_square_remote" scale_picture="true" keep_aspect_ratio="true" width="70" height="70" image_alignment="centre" red_replacement="yellow">
+        <widget class="picture" file="icons/custom/quick chat/quick_chat_speaking_mask_square_remote" scale_picture="true" keep_aspect_ratio="true" width="70" height="70" image_alignment="centre" red_replacement="purple">
             <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
         </widget>
     </container>

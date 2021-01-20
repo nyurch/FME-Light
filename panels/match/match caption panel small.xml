@@ -69,7 +69,7 @@
 		<container class="plain_box" entity_layout_id="at0i" id="at0i" appearance="boxes/custom/match/tv captions/si tv/caption/header/paper" height="55">
 			<animation class="translate_animation" start_value="-1, 0" end_value="0, 0" duration="0.6" delay="0" end_mode="hold_auto_reverse" tween="ease_out_4" coord_mode="relative_to_target" trigger_id="hidden" trigger_start="false" trigger_end="true" no_clipping="true"/>
 			<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="0.1" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true"/>
-			<string id="red_replacement" value="bg"/>
+			<string id="red_replacement" value="white"/>
 			<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" move_side="true" target="main"/>
 			<layout class="stick_to_object_attachment" id="align_left" offset="-17" get_side="right" set_side="left" target="at0b"/>
 			<layout class="stick_to_object_attachment" id="align_right" offset="17" get_side="left" set_side="right" target="at0a"/>
@@ -93,7 +93,7 @@
 				<string id="value" value="99 - "/>
 				<string id="size" value="xlarge"/>
 				<string id="font" value="title"/>
-				<string id="colour" value="white"/>
+				<string id="colour" value="black"/>
 				<string id="multiline" value="true"/>
 				<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main"/>
@@ -103,7 +103,7 @@
 				<animation class="fade_animation" start_value="0" end_value="1" duration="0.2" delay="0.5" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_value="false"/>
 				<string id="value" value="|b|TROY DEENEY|/b|"/>
 				<string id="size" value="xlarge"/>
-				<string id="colour" value="white"/>
+				<string id="colour" value="black"/>
 				<string id="font" value="title"/>
 				<string id="multiline" value="true"/>
 				<string id="maximum_width" value="260"/>
@@ -117,9 +117,9 @@
 			<layout class="stick_to_object_attachment" id="align_top" offset="55" get_side="top" set_side="top" move_side="true" target="main"/>
 			<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main"/>
 		</container>
-		<container class="plain_box" entity_layout_id="at0j" id="AcCo" appearance="boxes/custom/match/tv captions/si tv/caption/footer/paper" height="38">
+		<container class="plain_box" entity_layout_id="at0j" id="AcCo" background_colour="red 900" height="38">
 			<animation class="translate_animation" start_value="2, 0" end_value="0, 0" duration="0.6" delay="0" end_mode="hold_auto_reverse" tween="ease_out_4" coord_mode="relative_to_target" trigger_id="hidden" trigger_start="false" trigger_end="true" no_clipping="true"/>
-			<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="0.1" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true"/>
+			<animation class="fade_animation" start_value="0" end_value="1" duration="1.5" delay="0.1" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true"/>
 			<string id="red_replacement" value="background"/>
 			<layout class="stick_to_object_attachment" id="align_top" get_side="bottom" set_side="top" move_side="true" target="at0i"/>
 			<layout class="stick_to_object_attachment" id="align_left" get_side="right" set_side="left" target="at0d"/>
@@ -150,7 +150,7 @@
 				<string id="size" value="9"/>
 				<string id="font" value="title"/>
 				<string id="multiline" value="false"/>
-				<string id="colour" value="orange"/>
+				<string id="colour" value="white"/>
 				<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_bottom" offset="-2" get_side="bottom" set_side="bottom" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_left" offset="6" get_side="right" set_side="left" move_side="true" target="at03"/>
@@ -159,7 +159,7 @@
 				<animation class="fade_animation" start_value="0" end_value="1" duration="0.2" delay="0.5" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_value="false"/>
 				<string id="value" value="4th goal of the season"/>
 				<string id="size" value="8"/>
-				<string id="colour" value="red"/>
+				<string id="colour" value="white"/>
 				<string id="multiline" value="true"/>
 				<string id="maximum_width" value="250"/>
 				<layout class="stick_to_object_attachment" id="align_top" offset="0" get_side="top" set_side="top" target="main"/>
@@ -168,6 +168,7 @@
 				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main"/>
 			</widget>
 		</container>
+		<!--competition logo-->
 		<container class="plain_box" entity_layout_id="at0c" id="comC" appearance="boxes/custom/match/tv captions/si tv/caption/footer/paper" width="50" height="38">
 			<animation class="translate_animation" start_value="-0.2, 1" end_value="0, 0" duration="0.2" delay="0.8" end_mode="hold_auto_reverse" tween="ease_out_4" coord_mode="relative_to_target" trigger_id="hidden" trigger_start="false" trigger_end="true" no_clipping="true"/>
 			<animation class="fade_animation" start_value="0" end_value="1" duration="0.2" delay="0.8" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true"/>

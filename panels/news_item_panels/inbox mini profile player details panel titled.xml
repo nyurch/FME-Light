@@ -5,7 +5,7 @@
 	<layout class="fit_children_attachment" alignment="vertical" offset="0" />
 	<layout class="stick_to_sides_attachment" alignment="horizontal,top" apply_to_children="true" inset="0"/>
 
-	<container class="inner_subtle_box" id="titl">
+	<container class="inner_subtle_box" red_replacement="black" id="titl">
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
 		<!-- some pictures -->

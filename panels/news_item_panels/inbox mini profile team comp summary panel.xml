@@ -12,7 +12,7 @@
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
 
 			<!--pivotal match-->
-			<widget class="label" font="title" colour="faded text" alignment="centre" auto_size="vertical">
+			<widget class="label" font="title" colour="gold" alignment="centre" auto_size="vertical">
 				<translation id="text" translation_id="437033" type="use" value="Pivotal Match[COMMENT: FR 13665; comp win news item; section title for important match]"/>
 			</widget>
 
@@ -21,9 +21,9 @@
 				<layout class="arrange_horizontal_attachment" layout="-2, -1, -2" gap="10"/>
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true"/>
 
-				<widget class="team_button" id="hmnm" size="medium" style="bold" colour="text" alignment="centre" format="[%team#1-short]" icon_alignment="top"/>
-				<widget class="fixture_button" id="scrl" size="14" style="bold" alignment="centre, auto_fit" format="[%scoreline#1-home_away]"/>
-				<widget class="team_button" id="awnm" size="medium" style="bold" colour="text" alignment="centre" format="[%team#1-short]" icon_alignment="top"/>
+				<widget class="team_button" id="hmnm" size="medium" style="bold" colour="bg" alignment="centre" format="[%team#1-short]" icon_alignment="top"/>
+				<widget class="fixture_button" id="scrl" size="14" style="bold" colour="gold" alignment="centre, auto_fit" format="[%scoreline#1-home_away]"/>
+				<widget class="team_button" id="awnm" size="medium" style="bold" colour="bg" alignment="centre" format="[%team#1-short]" icon_alignment="top"/>
 			</container>
 		</container>
 
@@ -32,7 +32,7 @@
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
 
 			<!--key player-->
-			<widget class="label" auto_size="none" font="title" colour="faded text" alignment="centre">
+			<widget class="label" auto_size="none" font="title" colour="gold" alignment="centre">
 				<translation id="text" translation_id="227396" type="use" value="Key Player"/>
 			</widget>
 
@@ -40,13 +40,13 @@
 				<layout class="arrange_vertical_attachment" alignment="top" gap="0"/>
 				<layout class="centre_in_parent_attachment" alignment="horizontal" apply_to_children="true"/>
 
-				<widget class="person_button" id="kypl" person_is_player="true" auto_size="all" alignment="centre" style="bold" colour="black">
+				<widget class="person_button" id="kypl" person_is_player="true" auto_size="all" alignment="centre" style="bold" colour="white">
 					<translation id="text" translation_id="227396" type="use" value="Key Player"/>
 				</widget>
 			</container>
 
 			<!--key player's average rating-->
-			<widget class="label" id="avrt" auto_size="none" alignment="centre">
+			<widget class="label" id="avrt" auto_size="none" colour="white" alignment="centre">
 			</widget>
 		</container>
 	</container>

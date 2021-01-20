@@ -1,0 +1,17 @@
+<panel>
+    <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
+    <container>
+        <layout class="show_medium_vertical" min_value="0" max_value="967"/>
+        <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
+        <widget class="client_object_viewer_xml_panel" file="player/FME/FME_A">
+            <record id="object_property" get_property="objt" set_property="objt" />
+        </widget>
+    </container>
+    <container>
+        <layout class="show_medium_vertical" min_value="968"/>
+        <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
+        <widget class="client_object_viewer_xml_panel" file="player/FME/FME_B">
+            <record id="object_property" get_property="objt" set_property="objt" />
+        </widget>
+    </container>
+</panel>

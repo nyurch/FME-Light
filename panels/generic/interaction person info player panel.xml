@@ -23,12 +23,12 @@
                 </widget>
 
                 <!-- currently speaking mask -->
-                <widget class="picture" id="talk" file="icons/custom/quick chat/quick_chat_speaking_mask_square_small" scale_picture="true" keep_aspect_ratio="true" width="30" height="30" image_alignment="centre" red_replacement="yellow" hidden="true">
+                <widget class="picture" id="talk" file="icons/custom/quick chat/quick_chat_speaking_mask_square_small" scale_picture="true" keep_aspect_ratio="true" width="30" height="30" image_alignment="centre" red_replacement="purple" hidden="true">
                     <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
                 </widget>
 
                 <!-- captain/vice captain icon -->
-                <widget class="picture" id="capt" file="icons/custom/player stats/captain" scale_picture="true" keep_aspect_ratio="true" width="12" height="12" image_alignment="centre" red_replacement="yellow" hidden="true">
+                <widget class="picture" id="capt" file="icons/custom/player stats/captain" scale_picture="true" keep_aspect_ratio="true" width="12" height="12" image_alignment="centre" red_replacement="purple" hidden="true">
                     <layout class="stick_to_sides_attachment" alignment="top, left" inset="0"/>
                 </widget>
             </container>

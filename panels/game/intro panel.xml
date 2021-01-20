@@ -122,8 +122,8 @@
 			<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="right" />
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
 
-			<!-- Menu -->
-			<container class="main_contrast_box" id="mPic" width="500" appearance="boxes/custom/main menu/paper" navigation_container="true" default_focus="true">
+			<!-- Menu added colours to recolour menu box -->
+			<container class="main_contrast_box" id="mPic" width="500" appearance="boxes/custom/main menu/paper" red_replacement="bg" blue_replacement="bg accent" navigation_container="true" default_focus="true">
 				<layout class="centre_in_parent_attachment" alignment="vertical" offset="0" apply_to_children="true" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="50" />
 
@@ -159,7 +159,7 @@
 
 						<!-- Logos for different SKUs and Platforms -->
 						<!-- FM -->
-						<widget class="picture" file="main menu/logo" scale_picture="true" image_alignment="centre" width="320" height="100">
+						<widget class="picture" file="main menu/logo" scale_picture="true" image_alignment="centre" width="320" height="100" red_replacement="main_menu_logo">
 							<global id="hidden" name="is_fmt" />
 						</widget>
 
@@ -180,10 +180,12 @@
 							<global id="shown" name="game_mode_is_console_mode" />
 						</widget>
 
+						<!-- What's New -->
+						<widget class="icon_button" colour="main_menu_text" red_replacement="main_menu_text" icon_colour="main_menu_text" id="WNbt" click_event="what" auto_size="horizontal" height="32" icon="icons/16px/maximise" icon_alignment="right,centre_y" />
 					</container>
 
 					<!-- Most recent game -->
-					<container class="inner_box" height="70" appearance="boxes/custom/main menu/most recent/paper" colour="white">
+					<container class="inner_box" height="70" appearance="boxes/custom/main menu/most recent/paper">
 						<attachment_group class="horizontal_arrange" horizontal_gap="40" horizontal_offset="20" />
 
 						<container height="40" width="40">
@@ -197,12 +199,12 @@
 							<attachment_group class="vertical_arrange_autosize" vertical_offset="16" />
 
 							<!-- Header Text -->
-							<widget class="label" id="morl" auto_size="all" alignment="left, centre_y" font="title" size="xlarge" height="40" colour="white">
-								<translation id="text" translation_id="420632" type="use" colour="white" value="Most Recent[COMMENT: FR 16138, main menu text to load the most recent saved game, the saved game name itself will be displayed in parentheses below this]" />
+							<widget class="label" id="morl" auto_size="all" alignment="left, centre_y" font="title" size="xlarge" height="40" colour="main_menu_text">
+								<translation id="text" translation_id="420632" type="use" value="Most Recent[COMMENT: FR 16138, main menu text to load the most recent saved game, the saved game name itself will be displayed in parentheses below this]" />
 							</widget>
 
 
-							<widget class="label" id="resT" auto_size="all" colour="white" size="small">
+							<widget class="label" id="resT" auto_size="all" colour="main_menu_faded" size="small">
 								<translation id="text" translation_id="260987" type="use" value="Load Last Game[COMMENT: Title of confirmation dialog when attempting to load last game]" />
 							</widget>
 						</container>
@@ -223,7 +225,7 @@
 							<global id="hidden" name="is_demo_mode" />
 
 							<!-- FM Game Modes -->
-							<widget class="subtle_popup_button" appearance="buttons/subtle/flex/button" alignment="left, centre_y" colour="white" font="title" size="xlarge" height="40" fixed="true">
+							<widget class="subtle_popup_button" appearance="buttons/subtle/flex/button" alignment="left, centre_y" font="title" colour="main_menu_text" size="xlarge" height="40" fixed="true">
 								<translation id="text" translation_id="339126" type="use" value="Start a new game[COMMENT: intro panel; start a new game, use top matches as a similar string was previously used]" />
 
 								<global id="hidden" name="is_fmt" />
@@ -255,7 +257,7 @@
 
 								<global id="shown" name="is_fmt" />
 
-								<widget class="subtle_popup_button" appearance="buttons/subtle/flex/button" alignment="left, centre_y" font="title" size="xlarge" height="40" fixed="true">
+								<widget class="subtle_popup_button" appearance="buttons/subtle/flex/button" alignment="left, centre_y" font="title" colour="main_menu_text" size="xlarge" height="40" fixed="true">
 									<translation id="text" translation_id="339126" type="use" value="Start a new game[COMMENT: intro panel; start a new game, use top matches as a similar string was previously used]" />
 
 									<global id="hidden" name="platform_is_handheld" />
@@ -291,7 +293,7 @@
 							</container>
 
 							<!-- FMT Game Modes (Touch/Switch) -->
-							<widget class="subtle_popup_button" appearance="buttons/subtle/flex/button" alignment="left, centre_y" font="title" size="xlarge" height="40" fixed="true">
+							<widget class="subtle_popup_button" appearance="buttons/subtle/flex/button" alignment="left, centre_y" font="title" colour="main_menu_text" size="xlarge" height="40" fixed="true">
 								<translation id="text" translation_id="339126" type="use" value="Start a new game[COMMENT: intro panel; start a new game, use top matches as a similar string was previously used]" />
 
 								<global id="shown" name="platform_is_handheld" />
@@ -314,13 +316,13 @@
 						</container>
 
 						<!-- Select Quick Save Menu -->
-						<widget class="demo_quick_start_popup_button" id="demo" height="40" colour="white" >
+						<widget class="demo_quick_start_popup_button" id="demo" height="40" >
 							<global id="shown" name="is_demo_mode" />
 						</widget>
 
 						<!-- Load Game Button-->
-						<container class="icon_button" appearance="buttons/subtle/flex/button" alignment="left, centre_y" font="title" size="xlarge" height="40" colour="white">
-							<translation id="text" translation_id="248149" type="use" value="Load Game" colour="white" />
+						<container class="icon_button" appearance="buttons/subtle/flex/button" alignment="left, centre_y" font="title" colour="main_menu_text" size="xlarge" height="40">
+							<translation id="text" translation_id="248149" type="use" value="Load Game" />
 							<translation id="hint" translation_id="320428" type="use" value="Choose this option to load a previously saved game[COMMENT: intro panel; hint text]" />
 
 							<record id="click_event" event_id="OPN?" event_target="glob" />
@@ -328,7 +330,7 @@
 						</container>
 
 						<!-- Join Online Game Button-->
-						<container id="netb" class="icon_button" appearance="buttons/subtle/flex/button" alignment="left, centre_y" font="title" size="xlarge" height="40" colour="white">
+						<container id="netb" class="icon_button" appearance="buttons/subtle/flex/button" alignment="left, centre_y" font="title" colour="main_menu_text" size="xlarge" height="40">
 							<translation id="text" translation_id="339054" type="use" value="Join Online Game[COMMENT: intro panel button text to join a network game]" />
 							<translation id="hint" translation_id="338948" type="use" value="Choose this option to join an online game.[COMMENT: game start screen, hint text for Join Online Game button, use top ten matches as this string is only slightly altered to remove references to starting a game]" />
 
@@ -338,7 +340,10 @@
 						</container>
 
 						<!-- Cloud storage button -->
-						<container height="40" colour="white">
+	        <container>
+              <attachment_group class="vertical_arrange_autosize" />
+              <global id="hidden" name="is_demo_mode" />				   
+						<container height="40">
 							<attachment_group class="vertical_arrange_autosize" />
 
 							<global id="hidden" name="platform_is_switch" />
@@ -353,14 +358,15 @@
 								<global id="shown" name="platform_is_handheld" />
 							</container>
 						</container>
-					</container>
+			</container>
+					</container>			  
 
 					<widget class="horizontal_divider" />
 
 					<container>
 						<attachment_group class="horizontal_arrange_vertical_autosize" />
 						<!-- Preferences -->
-						<widget class="subtle_button" click_event="PLSM" auto_size="all" appearance="buttons/subtle/flex/button" colour="white">
+						<widget class="subtle_button" click_event="PLSM" auto_size="all" appearance="buttons/subtle/flex/button" colour="main_menu_text">
 							<translation id="text" translation_id="229824" type="use" value="Preferences" />
 							<translation id="hint" translation_id="255121" type="use" value="Change your game preferences.[COMMENT: intro screen: preferences button hint]" />
 							<record id="click_event">
@@ -370,13 +376,13 @@
 						</widget>
 
 						<!-- Manual -->
-						<widget class="icon_button" id="mnBT" click_event="soUM" auto_size="all" appearance="buttons/subtle/flex/button">
-							<translation id="text" translation_id="326982" type="use" value="Manual" colour="white" />
+						<widget class="icon_button" id="mnBT" click_event="soUM" auto_size="all" appearance="buttons/subtle/flex/button" colour="main_menu_text">
+							<translation id="text" translation_id="326982" type="use" value="Manual" />
 						</widget>
 
 						<!-- FM More -->
-						<widget class="subtle_popup_button" auto_size="all" appearance="buttons/subtle/flex/button" fixed="true" colour="white">
-							<translation id="text" translation_id="382316" type="use" colour="white" value="More...[COMMENT: sections menu strip, menubar heading for section that contains miscellaneous items, ellipses needed to hint that things are contained therein]" />
+						<widget class="subtle_popup_button" auto_size="all" appearance="buttons/subtle/flex/button" fixed="true" colour="main_menu_text" secondary_icon_colour="main_menu_text">
+							<translation id="text" translation_id="382316" type="use" value="More...[COMMENT: sections menu strip, menubar heading for section that contains miscellaneous items, ellipses needed to hint that things are contained therein]" />
 
 							<global id="hidden" name="is_fmt" />
 
@@ -447,11 +453,7 @@
 													<translation id="text" translation_id="335142" type="use" value="Leaderboards[COMMENT: section title for leaderboard section]" />
 													<global id="hidden" name="is_demo_mode" />
 												</record>
-												<record id="5" event_id="ACHV">
-													<translation id="text" translation_id="247607" type="use" value="Achievements" />
-													<global id="hidden" name="is_demo_mode" />
-												</record>
-												<record id="6" event_id="EULA">
+												<record id="5" event_id="EULA">
 													<translation id="text" translation_id="454702" type="use" value="Privacy Policies" />
 													<translation id="hint" translation_id="492126" type="use" value="Click here to read the relevant notices with regards to your privacy[COMMENT: AREA: Main Menu; SUB-AREA: Privacy Policies help; FR-BN: 7245; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: tooltip for 454702 Privacy Policies, cannot be feminised]" />
 												</record>
@@ -593,12 +595,12 @@
 				</container>
 
 				<!-- version label-->
-				<widget class="text" id="vers" auto_size="all" colour="fg alpha" size="small">
+				<widget class="text" id="vers" auto_size="all" colour="main_menu_faded" size="small">
 					<layout class="stick_to_sides_attachment" alignment="left,bottom" inset="20,20" />
 				</widget>
 
 				<!-- Quit -->
-				<widget class="subtle_button" id="qttx" auto_size="all" appearance="buttons/subtle/flex/button" colour="white">
+				<widget class="subtle_button" id="qttx" auto_size="all" appearance="buttons/subtle/flex/button" colour="main_menu_text">
 					<translation id="text" translation_id="248058" type="use" value="Quit" />
 					<translation id="hint" translation_id="255120" type="use" value="Choose this option to exit [%string#1 - current name of game, e.g. FM2007] and return to the real world...[COMMENT - hint text for button to exit game]" />
 					<layout class="stick_to_sides_attachment" alignment="right,bottom" inset="20,20" />
@@ -657,7 +659,7 @@
 		</container>
 
 		<!-- Edit appearance button-->
-		<container class="icon_button" id="reeB" auto_size="all" icon="icons/16px/manager" controller_button="x_button">
+		<container class="icon_button" id="reeB" auto_size="all" icon="icons/16px/manager" controller_button="x_button" colour="white" red_replacement="white" icon_colour="white">
 			<translation id="text" translation_id="229690" type="use" value="Edit" />
 			<layout class="stick_to_sides_attachment" alignment="bottom, left" inset="10" />
 			<record id="click_event" event_id="eMnG" />

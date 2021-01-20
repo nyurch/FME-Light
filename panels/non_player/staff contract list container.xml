@@ -151,7 +151,7 @@
 				<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" move_side="true" target="main" />
 				<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main" />
 			</widget>
-			<widget class="text" entity_layout_id="at0?" id="at0?" height="20">
+			<widget class="text" colour="white" style="bold" font="title" entity_layout_id="at0?" id="at0?" height="20">
 				<translation id="text" translation_id="242867" type="use" value="Accepted[COMMENT - team future transfers panel; label in table showing that an offer has been accepted]" />
 				<layout class="stick_to_object_attachment" id="align_top" offset="2" get_side="top" set_side="top" move_side="true" target="main" />
 				<layout class="stick_to_object_attachment" id="align_left" get_side="right" set_side="left" target="at0&gt;" />

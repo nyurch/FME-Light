@@ -26,7 +26,7 @@
             <container>
                 <attachment_group class="vertical_arrange_horizontal_autosize" vertical_alignment="middle"/>
 
-                <widget class="text" id="titl" font="title" size="large" colour="text" alignment="left, centre_y" auto_size="all"/>
+                <widget class="text" id="titl" font="title" size="normal" colour="accent" alignment="left, centre_y" auto_size="all"/>
 
                 <container id="AttB">
                     <attachment_group class="horizontal_arrange_autosize_all"/>

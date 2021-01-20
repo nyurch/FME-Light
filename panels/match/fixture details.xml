@@ -184,12 +184,15 @@
 					<container height="15" />
 
 					<!--line up-->
-					<widget class="fixture_lineup_table" id="FxCL" auto_size="vertical">
-						<record id="object_property">
-							<integer id="get_property" value="FxCL" />
-						</record>
-						<record id="default_properties" colour="black"/>
-					</widget>
+							<widget class="fixture_lineup_table" id="FxCL" auto_size="vertical" colour="text">
+								<record id="GoaI" file="icons/16px/goal"/>
+								<record id="OwnI" file="icons/16px/own goal"/>
+								<record id="object_property" get_property="FxCL" />
+								<!-- add list bit to recolour text from white -->
+								<list id="column_widget_properties">
+								<record indx="0" colour="text" />
+								</list>
+							</widget>
 
 					<!--rules-->
 					<widget id="FxRl" class="fixture_rules_text">

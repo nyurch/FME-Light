@@ -93,7 +93,7 @@
 							<widget class="label" font="label" auto_size="all" colour="faded text">
 								<translation id="text" translation_id="344616" type="use" value="Previous Meetings[COMMENT: title for a box containing information on previous meetings between two sides]" />
 							</widget>
-							<widget class="team_recent_form_widget" id="pmet" show_no_form_on_empty="true" height="22" auto_size="horizontal">
+							<widget class="team_recent_form_widget" colour="black" id="pmet" show_no_form_on_empty="true" height="22" auto_size="horizontal">
 							</widget>
 						</container>
 					</container>

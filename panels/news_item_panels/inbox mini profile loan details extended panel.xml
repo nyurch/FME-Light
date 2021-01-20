@@ -79,5 +79,5 @@
 
 		</container>
 	</container>
-	<container id="inva" class="inner_subtle_box" hidden="true" height="40" />
+	<container id="inva" class="inner_subtle_box" red_replacement="black" hidden="true" height="40" />
 </panel>

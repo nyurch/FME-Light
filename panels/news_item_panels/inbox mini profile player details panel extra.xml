@@ -2,7 +2,7 @@
 
 	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
-	<container class="inner_subtle_box" id="titl">
+	<container class="inner_subtle_box" red_replacement="black" id="titl">
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 		<!-- some pictures -->
 		<container id="ICdi" height="140" >
