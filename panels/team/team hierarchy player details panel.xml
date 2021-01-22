@@ -97,7 +97,7 @@
 				<container class="bordered_box" id="tmCc" appearance="boxes/custom/hierarchy/header/paper" height="24">
 					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
-					<widget class="label" id="tmCl" alignment="centre" spec="text" style="semi_bold" colour="black" />
+					<widget class="label" id="tmCl" alignment="centre" spec="text" style="semi_bold" colour="white" />
 				</container>
 			</container>
 
@@ -148,16 +148,16 @@
 					<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
 					<!--Social group Icon and text-->
-					<widget class="picture" width="16" file="icons/16px/dynamics" image_alignment="centre" scale_picture="true" red_replacement="black" />
+					<widget class="picture" width="16" file="icons/16px/dynamics" image_alignment="centre" scale_picture="true" red_replacement="bg" />
 					<container>
 						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-						<widget class="text" id="infT" spec="text" style="semi_bold" colour="text" red_replacement="text" alignment="centre" size="small" />
+						<widget class="text" id="infT" spec="text" style="semi_bold" colour="bg" red_replacement="bg" alignment="centre" size="small" />
 					
 						<container>
 							<layout class="arrange_horizontal_attachment" alignment="middle" offset="0" gap="0" />
 							<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
-							<widget class="link_button_title" id="infL" spec="text" style="semi_bold" colour="text" red_replacement="text" section="tHSg" size="small" alignment="left, centre_y" auto_size="all">
+							<widget class="link_button_title" id="infL" spec="text" style="semi_bold" colour="bg" red_replacement="bg" section="tHSg" size="small" alignment="left, centre_y" auto_size="all">
 								<record id="object_property">
 									<integer id="get_property" value="Pcte" />
 									<integer id="set_property" value="objt" />

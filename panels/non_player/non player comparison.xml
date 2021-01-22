@@ -40,10 +40,10 @@
 
 						<widget class="table" id="dts1"  layout="-1" auto_size="vertical" row_height="22" row_spacing="0">
 							<list id="column_table_properties">
-								<record indx="0" colour="alt text" sort_disabled="true" alignment="left,centre_y" />
+								<record indx="0" colour="fg" sort_disabled="true" alignment="left,centre_y" />
 							</list>
 							<list id="column_widget_properties">
-								<record indx="0" colour="faded alt text" alignment="left,centre_y" />
+								<record indx="0" colour="fg" alignment="left,centre_y" />
 							</list>
 						</widget>
 					</container>
@@ -102,10 +102,10 @@
 							<widget class="table" id="dts2" layout="-1" auto_size="vertical" row_height="22" row_spacing="0" hidden="true">
 								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
 								<list id="column_table_properties">
-									<record indx="0" colour="alt text" sort_disabled="true" alignment="right,centre_y" />
+									<record indx="0" colour="fg" sort_disabled="true" alignment="right,centre_y" />
 								</list>
 								<list id="column_widget_properties">
-									<record indx="0" colour="faded alt text" alignment="right,centre_y" />
+									<record indx="0" colour="fg" alignment="right,centre_y" />
 								</list>
 							</widget>
 						</container>

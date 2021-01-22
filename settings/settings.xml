@@ -301,20 +301,15 @@
 <colour name="virtual player" 							value="red 500"/>
 <colour name="loan out" 								value="fg purple"/>
 <colour name="loan out background" 						value="fg blue"/>
-<!-- Used for loan box on player contract panel -->
 <colour name="loan in" 									value="fg blue"/>
 <colour name="co own in" 								value="fg lime lighter"/>
-<!-- Co owned at club -->
 <colour name="co own out" 								value="fg lime"/>
-<!-- Co owned not at club -->
 <colour name="trial in" 								value="green lighter"/>
 <colour name="trial out" 								value="green"/>
 <colour name="shortlisted" 								value="orange"/>
 <colour name="golden generation" 						value="gold"/>
 <colour name="human controlled" 						value="fg cyan" />
-<!-- Used to indicate that team is managed by a human player -->
 <colour name="feeder club" 								value="fg purple"/>
-<!-- Used to indicate that team is a feeder club for the current human player -->
 
 <!-- Picking colours - not implemented yet -->
 <colour name="player picked" 							value="bg" />
@@ -344,7 +339,6 @@
 <colour name="empty_picking_button" 					value="bg darker"/>
 <colour name="empty_picking_button_border" 				value="bg darker"/>
 
-
 <!--Performance (formerly confidence)-->
 <colour name="performance board tag" 					value="teal" />
 <colour name="performance fans tag" 					value="teal" />
@@ -369,6 +363,8 @@
 <colour name="recruitment meeting bubble colour"	value="rgb(240,240,240)" />
 
 <!-- Button colours -->
+<colour name="primary_button_text" 				value="bg"/> 	<!-- set to bg when done -->
+<colour name="primary_button" 					value="fg accent"/> 	<!-- not custom but moved here so can change more easily if needed -->
 <!--	<colour name="standard_button" 																		value="fg"/>
 <colour name="match_button" 																		value="fg"/>
 <colour name="toggle_button" 																		value="black"/>
@@ -379,6 +375,12 @@
 <colour name="conversation_statement_selected_button" 												value="cyan 400"/>
 <colour name="standard_label" 																		value="bg info"/>
 -->
+<!-- Base icon colours -->
+<colour name="normal_icon" 																			value="fg"/>
+<colour name="button_icon" 																			value="fg"/> 
+<colour name="match_icon" 																			value="fg"/> 
+<colour name="ui_header_icons" 																		value="fg"/>
+	
 <!-- Base colours -->
 <colour name="sidebar text" 																		value="black"/>
 <colour name="continue text" 																		value="white" />
@@ -387,6 +389,7 @@
 <colour name="title" 																				value="fg tertiary" />
 <colour name="text" 																				value="black"/>
 <colour name="faded text" 																			value="fg alpha"/>
+<colour name="faded alt text" 																		value="bg alpha"/>
 <!-- Graphic bars colour
 <colour name="primary" 																				value="accent"/>
 -->
@@ -401,15 +404,9 @@
 <colour name="dark text" 																			value="rgb(0,0,0)"/>
 <colour name="searchbox text" 																		value="fg"/>
 <colour name="news ticker" 																			value="fg alert" />
-<colour name="faded alt text" 																		value="fg alpha"/>
+
 <colour name="faded black" 																			value="rgba(0,0,0,0.5)"/>
 <colour name="faded white" 																			value="rgba(255,255,255,0.5)"/>
--->
-<!-- Base icon colours -->
-<!--	<colour name="normal_icon" 																			value="fg"/>
-<colour name="button_icon" 																			value="fg"/>
-<colour name="match_icon" 																			value="fg"/>
-<colour name="ui_header_icons" 																		value="fg"/>
 -->
 <!-- Card colours - used for places where the colours are inverted in the default skin. Inbox, Report cards, etc -->
 <colour name="card fg lighter" 														value="rgb(250,250,250)"/>
@@ -472,6 +469,25 @@
 <colour name="calendar draft date" 						value="grey 500"/>
 <colour name="calendar available for friendly" 			value="bg yellow"/>
 <colour name="calendar viewed fixture" 					value="bg orange lighter"/>
+
+<!-- Team Chemistry-->
+<colour name="chemistry_influences_colour" 				value="bg green" />
+<colour name="chemistry_no_opinion_colour" 				value="bg grey lighter" />
+<colour name="chemistry_opposes_colour" 				value="bg red" />
+<colour name="chemistry_pro_item_colour" 				value="fg positive" />
+<colour name="chemistry_con_item_colour" 				value="fg negative" />
+<colour name="chemistry_happiness_good_colour" 			value="bg positive" />
+<colour name="chemistry_happiness_slightly_good_colour" value="bg lighter" />
+<colour name="chemistry_happiness_neutral_colour" 		value="bg alert" />
+<colour name="chemistry_happiness_slightly_bad_colour" 	value="bg grey lighter" />
+<colour name="chemistry_happiness_bad_colour" 			value="bg negative" />
+
+<!--dynamics-->
+<colour name="dynamics team leader" 					value="white"/>
+<colour name="dynamics leading player" 					value="fg yellow" />
+<colour name="dynamics influential player" 				value="fg orange" />
+<colour name="dynamics squad player" 					value="fg blue" />
+
 
 <!-- xyjnja -->
 <!-- The following colours are just here temporarily to make sure nothing gets broken in other non-FM projects. We need to determine which of these belong in sitoolkit and which should live in fm colours.xml  -->

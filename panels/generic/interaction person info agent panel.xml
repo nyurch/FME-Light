@@ -3,7 +3,7 @@
 
     <boolean id="should_force_refresh" value="true"/>
 
-    <container class="bordered_box_no_margin" appearance="boxes/custom/interaction/person/paper_disabled" height="60">
+    <container class="bordered_box_no_margin" background_colour="white" height="60">
         <attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_gap="0" vertical_inset="0"/>
 
         <container height="35">

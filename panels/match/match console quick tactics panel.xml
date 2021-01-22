@@ -66,7 +66,7 @@
 
 				</container>
 
-				<container class="main_box_no_margin" background_colour="black" height="30" width="30">
+				<container class="main_box_no_margin" background_colour="bg" height="30" width="30">
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 					<widget class="icon_button" appearance="buttons/custom/over state only/square/button" icon_alignment="centre" click_event="Emmb" id="mmbt" />
@@ -342,10 +342,10 @@
 					</widget>
 				</container>
 
-				<container class="main_box_no_margin" background_colour="black" width="30">
+				<container class="main_box_no_margin" background_colour="bg" width="30">
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
 
-					<widget class="icon_button" id="sutg" click_event="tgsu" style="vertical" font="title" size="large" alignment="centre" appearance="buttons/custom/over state only/square/button" colour="white" controller_button="x_button" gamepad_icon_alignment="centre_top">
+					<widget class="icon_button" id="sutg" click_event="tgsu" style="vertical" font="title" size="large" alignment="centre" appearance="buttons/custom/over state only/square/button" colour="accent" controller_button="x_button" gamepad_icon_alignment="centre_top">
 
 					</widget>
 

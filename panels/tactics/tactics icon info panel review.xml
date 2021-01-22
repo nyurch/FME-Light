@@ -25,7 +25,7 @@
 	<!--rating-->
 	<widget class="match_rating_label_formatted" id="avra" size="8.5" alignment="centre,can_scale" format="[%fraction#1-2.1]" navigation_focus_target="false" appearance="labels/custom/match rating/small/label"/>
 
-	<widget class="tactical_role_label" id="role" abbt="true" size="xsmall" auto_size="vertical" alignment="centre,can_scale" style="bold">
+	<widget class="tactical_role_label" id="role" abbt="true" size="xsmall" auto_size="vertical" alignment="centre,can_scale" colour="white" style="bold">
 		<global id="hidden" name="ui.is_fmt_console_skin"/>
 	</widget>
 
