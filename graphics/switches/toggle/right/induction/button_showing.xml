@@ -1,5 +1,4 @@
-<!-- image properties -->
-<!-- changed from fg to pbt -->
+﻿<!-- image properties -->
 <properties>
 
 	<!-- image borders -->
@@ -13,16 +12,16 @@
 	
 	<record id="font_spec">
 		<flags id="font" value="fonts/primary_button"/> 
-		<flags id="colour" value="primary_button_text"/> 
+		<flags id="colour" value="tutorial header"/> 
 	</record>
 	
 	<colour id="red_replacement" name="primary_button"/>
-	<colour id="green_replacement" name="primary_button"/>
+	<colour id="green_replacement" name="staff responsibility"/>
 	<colour id="blue_replacement" name="black"/>
 
-	<record id="primary_icon_properties" red_replacement="primary_button_text" green_replacement="primary_button"/>
-	<record id="secondary_icon_properties" red_replacement="primary_button_text" green_replacement="primary_button"/>
+	<record id="primary_icon_properties" red_replacement="tutorial header" green_replacement="staff responsibility" blue_replacement="staff responsibility"/>
+	<record id="secondary_icon_properties" red_replacement="tutorial header" green_replacement="staff responsibility" blue_replacement="staff responsibility"/>
 
-	<symbol id="focus_appearance" value="buttons/standard/normal/button_controller" />
+	<symbol id="focus_appearance" value="focus/object/slanted" />
 	
 </properties>

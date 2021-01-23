@@ -29,14 +29,14 @@
 					<attachment_group class="horizontal_arrange_autosize_vertical_centre" horizontal_offset="14" vertical_inset="2" />
 					<!-- the loading animation - GPU rendering -->
 
-					<widget class="picture" id="anmG" width="26" height="26" scale_picture="true" keep_aspect_ratio="true" file="progress/circular/spinner_match" frame_duration="100000" frame_width="26" red_replacement="bg">
+					<widget class="picture" id="anmG" width="26" height="26" scale_picture="true" keep_aspect_ratio="true" file="progress/circular/spinner_match" frame_duration="100000" frame_width="26" red_replacement="text">
 						<animation class="rotate_animation" end_mode="repeat" start_value="0" end_value="360" tween="linear" apply_to_mouse="false" />
 						<animation class="fade_animation" start_value="0" end_value="1" duration="0.3" delay="0.2" end_mode="hold_end"/>
 					</widget>
 
 
 					<!--title text-->
-					<widget class="text" id="Wttx" multiline="false" alignment="centre" font="title" colour="bg" auto_size="all" auto_size_maximum_width="210">
+					<widget class="text" id="Wttx" multiline="false" alignment="centre" font="title" colour="white" auto_size="all" auto_size_maximum_width="210">
 						<translation id="text" translation_id="332286" type="use" value="Waiting for next highlight...[COMMENT: title for a box containing information to look at between highlights]" />
 						<animation class="fade_animation" start_value="0" end_value="1" duration="0.3" delay="0.2" end_mode="hold_end"/>
 					</widget>

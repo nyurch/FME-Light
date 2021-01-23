@@ -1,5 +1,5 @@
-<!-- image properties -->
-<!-- changed from fg to pbt -->
+﻿<!-- image properties -->
+<!-- changed colours to primary_button_text -->
 <properties>
 
 	<!-- image borders -->
@@ -17,12 +17,12 @@
 	</record>
 	
 	<colour id="red_replacement" name="primary_button"/>
-	<colour id="green_replacement" name="primary_button"/>
+	<colour id="green_replacement" name="manager responsibility"/>
 	<colour id="blue_replacement" name="black"/>
 
-	<record id="primary_icon_properties" red_replacement="primary_button_text" green_replacement="primary_button"/>
-	<record id="secondary_icon_properties" red_replacement="primary_button_text" green_replacement="primary_button"/>
+	<record id="primary_icon_properties" red_replacement="primary_button_text" green_replacement="manager responsibility" blue_replacement="manager responsibility"/>
+	<record id="secondary_icon_properties" red_replacement="primary_button_text" green_replacement="manager responsibility" blue_replacement="manager responsibility"/>
 
-	<symbol id="focus_appearance" value="buttons/standard/normal/button_controller" />
+	<symbol id="focus_appearance" value="focus/object/slanted" />
 	
 </properties>

@@ -368,7 +368,6 @@
 <!--	<colour name="standard_button" 																		value="fg"/>
 <colour name="match_button" 																		value="fg"/>
 <colour name="toggle_button" 																		value="black"/>
-<colour name="primary_button" 																		value="rgb(53,178,96)"/>
 <colour name="view_button" 																			value="fg"/>
 <colour name="link_button" 																			value="fg blue lighter"/>
 <colour name="conversation_statement_button" 														value="fg"/>
