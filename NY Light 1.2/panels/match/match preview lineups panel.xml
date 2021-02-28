@@ -241,7 +241,7 @@
 
 				<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="middle" />
 
-				<widget class="picture" file="icons/custom/match/logos/si tv full" height="16" auto_size="horizontal" scale_picture="true" red_replacement="white">
+				<widget class="picture" file="icons/custom/match/logos/si tv full" height="25" auto_size="horizontal" scale_picture="true" red_replacement="red">
 					<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="1" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
 				</widget>
 
@@ -476,7 +476,7 @@
 
 				<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="middle" />
 
-				<widget class="picture" file="icons/custom/match/logos/si tv full" height="16" auto_size="horizontal" scale_picture="true" red_replacement="white">
+				<widget class="picture" file="icons/custom/match/logos/si tv full" height="25" auto_size="horizontal" scale_picture="true" red_replacement="red">
 					<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="1" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
 				</widget>
 			</container>

@@ -3,7 +3,8 @@
 	<layout class="stick_to_sides_attachment" alignment="top" apply_to_children="true" />
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
 
-	<container class="main_box" height="930" background_colour="white">
+	<!-- changed class to recolour box -->
+	<container class="main_box" background_colour="white" height="660" >
 		<attachment_group class="vertical_arrange_autosize" vertical_gap="10" vertical_offset="30" horizontal_inset="32"/>
 		<layout class="arrange_vertical_attachment" alignment="top, extend" gap="10" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="30" apply_to_children="true"  />
@@ -38,7 +39,7 @@
 			<layout class="arrange_horizontal_attachment" layout="-4,-6,-2"/>
 			<layout class="stick_to_sides_attachment" alignment="top" apply_to_children="true" />
 
-			<container class="main_box">
+			<container class="main_subtle_box">
 				<attachment_group class="vertical_arrange_autosize" />
 				<widget class="text" height="25" id="tiBE">
 					<string id="font" value="title" />
@@ -49,35 +50,20 @@
 				<container class="client_object_list_table" always_use_latest_object_list="true" id="tsqP" height="370" save_session_state="true" save_default_state="true" navigation_container="true" default_focus="true">
 
 					<integer id="row_spacing" value="0" />
-
 					<integer id="column_spacing" value="0" />
-
 					<string id="should_force_refresh" value="true" />
-
 					<string id="customisation_context" value="play" />
-
 					<integer id="database_table_type" value="1" />
-
 					<string id="view_setting_name" value="stored_tactics_view" />
-
 					<string id="mode" value="fill_rows, stripe_rows, printable" />
-
 					<string id="popup_menu_class" value="popup_button_table_header" />
-
 					<integer id="row_height" value="30" />
-
 					<boolean id="auto_size_rows" value="false" />
-
 					<boolean id="fixed_size_rows" value="true" />
-
 					<boolean id="dont_restore_selection" value="true" />
-
 					<list id="default_sort_column" />
-
 					<list id="disallowed_view_property_ids" />
-
 					<list id="required_view_property_ids" />
-
 					<string id="default_view" value="sltn" />
 
 					<list id="default_sort_column">
@@ -163,14 +149,14 @@
 					<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
 				</widget>
 
-				<widget class="pitch_with_tactics" player_icon_file="tactics/tactics icon info panel end of season" id="tacP" height="1200" icon_flags="show_name,use_player_kits_back,show_number,dont_fade_icons,show_extra_details" pitch_draw_grass="false" pitch_line_colour="transparent" pitch_perspective="0.25" pitch_draw_lines="false" pitch_touchline_width_percentage="40">
+				<widget class="pitch_with_tactics" player_icon_file="tactics/tactics icon info panel end of season" id="tacP" height="1200" icon_flags="show_name,use_player_kits_back,show_number,dont_fade_icons,show_extra_details" pitch_draw_grass="false" pitch_line_colour="tactics line" pitch_perspective="0" pitch_draw_lines="true" pitch_touchline_width_percentage="40">
 					<boolean id="vertical" value="true" />
 					<boolean id="pitch_is_read_only" value="true" />
 				</widget>
 
 			</container>
 
-			<container class="main_subtle_box">
+			<container class="main_box">
 				<attachment class="show_medium_horizontal" min_value="1200" />
 				<attachment_group class="vertical_arrange_autosize" />
 

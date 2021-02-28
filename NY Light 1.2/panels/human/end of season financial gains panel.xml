@@ -1,6 +1,6 @@
 ﻿<panel>
 	<attachment_group class="vertical_arrange_autosize" />
-	<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+	<layout class="stick_to_sides_attachment" value="all" alignment="all" inset="0" />
 	
 
 	<container class="main_box" background_colour="white">
@@ -42,7 +42,7 @@
 			<layout class="fit_children_attachment" alignment="vertical" offset="0" />
 			<layout class="fit_children_attachment" alignment="horizontal,fill" gap="10" />
 
-			<container class="main_subtle_box" height="870" width="360" id="con1">
+			<container class="main_subtle_box" height="700" width="360" id="con1">
 				<attachment_group class="vertical_arrange" horizontal_gap="10" inset="10" />
 				<widget class="text" id="clrT" height="25">
 					<translation id="text" translation_id="509709" type="use" value="Club Reputation[COMMENT: AREA: End of Season Review; SUB-AREA: Financial; FR-BN: ?; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title for end of season club reputation changes summary]" />
@@ -116,7 +116,7 @@
 				</container>
 			</container>
 
-			<container class="main_subtle_box" height="870" width="360" id="con2">
+			<container class="main_subtle_box" height="700" width="360" id="con2">
 				<attachment_group class="vertical_arrange" horizontal_gap="10" />
 				<widget class="text" id="anrT" height="25">
 					<translation id="text" translation_id="509711" type="use" value="Annual Revenue[COMMENT: AREA: End of Season Review; SUB-AREA: Financial; FR-BN: ?; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title]" />
@@ -131,7 +131,7 @@
 
 			</container>
 
-			<container class="main_subtle_box" height="870" width="360" id="con3">
+			<container class="main_subtle_box" height="700" width="360" id="con3">
 				<attachment_group class="vertical_arrange" horizontal_gap="10" />
 				<widget class="text" id="mrcT" height="25">
 					<translation id="text" translation_id="509712" type="use" value="Merchandise[COMMENT: AREA: End of Season Review; SUB-AREA: Financial; FR-BN: ?; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title]" />

@@ -4,7 +4,7 @@
     <container id="topc">
         <attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" horizontal_alignment="horizontal" horizontal_inset="0" />
         <container id="cacn" height="24" hidden="true">
-            <layout class="arrange_horizontal_attachment" layout="30,25,22,50" gap="2" />
+            <layout class="arrange_horizontal_attachment" layout="30,25,22,30,20" gap="2" />
             <layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
             <widget class="label">
                 <translation id="text" translation_id="458476" type="use" value="RCA:[COMMENT: Player attributes panel; Edit Mode, abbreviation for Recommended Current Ability; see also Current Ability ID 310135 for context]" />
@@ -72,6 +72,17 @@
                     <record id="object_property" get_property="PofR" />
                 </widget>
             </container>
+        </container>
+        <widget class="horizontal_subtle_divider" />
+        <container>
+            <attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+            <widget class="label" id="PCAB:" auto_size="vertical" font="title" colour="text">
+                <record id="object_property" get_property="PCAB" name="true" />
+            </widget>
+            <widget class="dashed_number_label" id="PCAB" auto_size="vertical">
+                <record id="object_property" get_property="PCAB"/>
+				<record id="widget_properties" alignment="right,centre_y" />
+			</widget>
         </container>
         <widget class="horizontal_subtle_divider" />
     </container>
